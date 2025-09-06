@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKINCARE WEBSITE</title>
+    <link rel="stylesheet" href="css/care.css">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dokdo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+    
+           <img class="skin-logo" src="images/logo.JPG" alt="" width="50"></li>
+           <a href="#"><span style="color: #26D592;">Skin</span>thesis</a>
+    
+           <a href="#">Home</a>
+           <a href="shop.html" >Shop</a>
+           <a href="about.html" class="active" style="color: #26D592;">About Us</a>
+           <a href="contact.html">Contact</a>
+           <a href="collection.html">Collection</a>
+           <a href="empty.html"><button id="myButton" onclick="hideButton()"></button></a>
+           <div class="search-container">
+            <button onclick="toggleDropdown()" class="dropbtn"><input type="text" placeholder="Search" style="color: #fff;">
+            <i class="fas fa-search search-icon"></i></button>
+            </div>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="">
+                    <h2 style="color:#c5d5c5 ; font-weight: 400; font-size: 1.5rem;">|Type here to Serach</h2>
+                    
+                    <ul>
+                        <li>Coconut Milk Soap</li>
+                        <li>Moisture Cream</li>
+                    </ul>
+                </a>
+            </div>
+           <a href=""> <img class="icon" src="images/cart image.jpg" alt="" width="40"></a>
+            <div class="order"><button onclick="myorder()" class="orderbtn"><img class="icon" src="images/login image.png" alt="" width="40"></button>
+
+                <div id="orderDropdown" class="order-content">
+                    <a href="">My Order</a>
+                    <a href="">Tracking</a>
+                    <a href="">Sign In</a>
+                </div>      
+            </div>  
+    
+    </nav>
+ </header>
+<br>
+<section  class="collection">
+  <img src="images/collection.jpg" alt="" width="1500">
+
+  <h1>"Discover Your Glow - Explore Our Skincare Collections"</h1>
+  <br>
+  <h3>All Natural</h3>
+  <p>Beautiful collections created for you</p>
+  <p>We feature beautiful collection organic skincare products that have been made using 100% pure essential oils</p>
+  <br>
+
+  <div class="collection-flex">
+    <img src="images/soap6.jpg" alt="" width="600">
+    <img src="images/soap7.jpg" alt="" width="600">
+  </div>
+
+  <br>
+  <div class="hand-container">
+    <div class="hand-item">
+        <h2>Face Care</h2>
+        <p>Skin care line is made using nutient-rich quality incredients with zero 
+            toxins and filters. The best part is that it works. Every ingredient we select 
+            has a very specific purpose for your skin and is proudly listed on the label.
+        </p>
+        </div>
+        <div class="hand-item">
+            <img src="images/soap8.jpg" alt="" width="600">
+        </div>
+  </div>
+  <br>
+
+  <div  class="natural-container">
+    <div class="natural-item">
+        <img src="images/soap10.jpg" alt="" width="600">
+    </div>
+    <div class="natural-item">
+        <h2>Natural Soap</h2>
+        <p>Each natural soap bar was designed with a perfect blend of pure organic 
+            and natural elements, giving you the ultimate indulgent at -home spa experience.
+            We use certified sustainable ingredients.
+        </p>
+    </div>
+
+  </div>
+  <br>
+  <div class="hand-container">
+    <div class="hand-item">
+       <h2>Body Care</h2>
+       <p>Palm oil free, with olive oil,  rice bran oil, coconut oil, abd cocoa butter 
+        Scented with our own blends of essential oils and coloured with clays and
+         oxides featuring natural and organic ingredients.
+       </p>
+    </div>
+    <div class="hand-item">
+       <img src="images/soap11.jpg" alt="" width="600">
+    </div>
+  </div>
+  <br>
+ 
+  <div class="footer">
+    <div class="footer-logo">
+      <div class="logo-item"><img src="images/logo.JPG" alt="" width="70"></div>
+      <div class="logo-item">
+        <h2>Skinthesis</h2>
+        <p>2025 Skinthesis Limited</p>
+      </div>
+    </div>
+  </div>
+  
+  <br>
+  <div class="list-container">
+    <div class="list-item">
+      <ul>
+        <li><strong>Company</strong></li>
+        <li>About Us</li>
+        <li>Skintheis Corporate</li>
+        <li>Careers</li>
+        <li>Team</li>
+      </ul>
+    </div>
+    <div class="list-item">
+      <ul>
+        <li><strong>Contact us</strong></li>
+        <li>Help & Support</li>
+        <li>Partner with us</li>
+        <li>Ride with us</li>
+      </ul>
+    </div>
+    <div class="list-item">
+      <ul>
+        <li><strong>Available in</strong></li>
+        <li>Coimbatore</li>
+        <li>Bengaluru</li>
+        <li>Chennai</li>
+        <li>Kolkata</li>
+      </ul>
+    </div>
+    <div class="list-item">
+      <ul>
+        <li><strong>Legan</strong></li>
+        <li>Terms & Conditions</li>
+        <li>Cookie policy</li>
+        <li>Privacy policy</li>
+      </ul>
+    </div>
+    <div class="list-item">
+      <ul>
+        <li><strong>Information</strong></li>
+        <li>Location</li>
+        <li>Email</li>
+        <li>Social Media</li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div class="social-icon">
+    <i class="fa-brands fa-instagram" style="color: #fc97e6; font-size: 2.5rem; font-weight: bold;"></i>
+    <i class="fa-brands fa-facebook" style="color: #74C0FC; font-size: 2.5rem; font-weight: bold;"></i>
+    
+    <i class="fa-brands fa-whatsapp" style="color: #21912e; font-size: 2.5rem; font-weight: bold;" ></i>
+  
+  </div>
+  <br>
+  
+  <div class="store-container">
+    <div class="store-item">
+      <h1>For better experience, dowload the app now</h1>
+    </div>
+   <div class="store-item">
+    <img src="images/store1.JPG" alt=""  width="200">
+      
+  </div>
+   <div class="store-item">
+    <img src="images/store2.JPG" alt="" width="200" >
+   
+  </div>
+  </div>
+  
+  
+  </div>
+  
+
+</section>
+
+
+
+
+
+<script src="script/care.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SKINCARE WEBSITE</title>
+    <link rel="stylesheet" href="css/care.css">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dokdo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+    
+           <img class="skin-logo" src="images/logo.JPG" alt="" width="50"></li>
+           <a href="#"><span style="color: #26D592;">Skin</span>thesis</a>
+    
+           <a href="#">Home</a>
+           <a href="shop.html" >Shop</a>
+           <a href="about.html" class="active" style="color: #26D592;">About Us</a>
+           <a href="contact.html">Contact</a>
+           <a href="collection.html">Collection</a>
+           <a href="empty.html"><button id="myButton" onclick="hideButton()"></button></a>
+           <div class="search-container">
+            <button onclick="toggleDropdown()" class="dropbtn"><input type="text" placeholder="Search" style="color: #fff;">
+            <i class="fas fa-search search-icon"></i></button>
+            </div>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="">
+                    <h2 style="color:#c5d5c5 ; font-weight: 400; font-size: 1.5rem;">|Type here to Serach</h2>
+                    
+                    <ul>
+                        <li>Coconut Milk Soap</li>
+                        <li>Moisture Cream</li>
+                    </ul>
+                </a>
+            </div>
+           <a href=""> <img class="icon" src="images/cart image.jpg" alt="" width="40"></a>
+            <div class="order"><button onclick="myorder()" class="orderbtn"><img class="icon" src="images/login image.png" alt="" width="40"></button>
+
+                <div id="orderDropdown" class="order-content">
+                    <a href="">My Order</a>
+                    <a href="">Tracking</a>
+                    <a href="">Sign In</a>
+                </div>      
+            </div>  
+    
+    </nav>
+ </header>
+<br>
+<section class="search-back">
+    <img src="images/" alt="">
+</section>
+
+ <script src="script/care.js"></script>
+    
+</body>
+</html>

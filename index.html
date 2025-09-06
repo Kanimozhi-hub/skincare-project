@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKINCARE WEBSITE</title>
+    <link rel="stylesheet" href="css/care.css">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dokdo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+    
+           <img class="skin-logo" src="images/logo.JPG" alt="" width="50"></li>
+           <a href="#"><span style="color: #26D592;">Skin</span>thesis</a>
+    
+           <a href="#">Home</a>
+           <a href="shop.html" >Shop</a>
+           <a href="about.html" class="active" style="color: #26D592;">About Us</a>
+           <a href="contact.html">Contact</a>
+           <a href="collection.html">Collection</a>
+           <a href="empty.html"><button id="myButton" onclick="hideButton()"></button></a>
+           <div class="search-container">
+            <button onclick="toggleDropdown()" class="dropbtn"><input type="text" placeholder="Search" style="color: #fff;">
+            <i class="fas fa-search search-icon"></i></button>
+            </div>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="">
+                    <h2 style="color:#c5d5c5 ; font-weight: 400; font-size: 1.5rem;">|Type here to Serach</h2>
+                    
+                    <ul>
+                        <li>Coconut Milk Soap</li>
+                        <li>Moisture Cream</li>
+                    </ul>
+                </a>
+            </div>
+           <a href=""> <img class="icon" src="images/cart image.jpg" alt="" width="40"></a>
+            <div class="order"><button onclick="myorder()" class="orderbtn"><img class="icon" src="images/login image.png" alt="" width="40"></button>
+
+                <div id="orderDropdown" class="order-content">
+                    <a href="">My Order</a>
+                    <a href="">Tracking</a>
+                    <a href="">Sign In</a>
+                </div>      
+            </div>  
+    
+    </nav>
+ </header>
+<br>
+<section class="about">
+    <img src="images/about bc.webp" alt="" width="90%">
+
+
+<div class="soap-info">
+    <h1>Cold-Processed Natural Handmade Soap</h1>
+    <p>Cold-Process saop is a beautiful Looking Handmade soap that,when cented with essential oils and colored with botanical elements makes 
+      for a project you can maker at home that looks like it came from an artist gallery.Cold-Process soap has no additives that are bad for the 
+      Earth.
+    </p>
+  </div>
+<br>
+  <div class="abt-soapimg">
+     <div class="soapimg-image"><img src="images/soap1.jpg" alt="" width="600" ></div> 
+   <div class="soapimg-image">   <img src="images/soap2.jpg" alt="" width="600"></div>
+      <div class="soapimg-image"><img src="images/soap3.jpg" alt="" width="600" height="370"></div>
+  </div>
+
+<br>
+  <div class="hand-container">
+     <div class="hand-item">
+    <h2>Hand-made</h2>
+    <p>Non-Organinc anticbacterial soaps contaim chemicals like triclosan,paraben and other toxic 
+      petrochemicals that distrubt that hormones in humans.
+    </p>
+
+    <h2>Made with Love</h2>
+    <p>Our saops really or totaly natural-even refuse to use 'nature-identical' incredients.We begin 
+      the process of natural soap making by learning about the incredients.
+    </p>
+
+    <h2>100% Organic</h2>
+    <p>Its all natural without any additional preservatives. The 
+      is a good thing because mostly preservatives are chemicals that harm our health.
+    </p>
+     </div>
+     <div class="hand-item">
+      <img src="images/soap4.png" alt="" width="500">
+     </div>
+     <div class="hand-item">
+      <img src="images/soap5.png" alt="" width="500">
+     </div>
+  </div>
+<br>
+<div class="natural-container">
+  <div class="natural-item">
+<img src="images/natural.jpg" alt="" width="600">
+  </div>
+  <div class="natural-item">
+ <h2>All-natural, made with love</h2>
+ <p>Organic soaps use natural anibacterial like tea tree and peppermint essential 
+  oils.These do not have any adverse effect. These Essential oils also add up to 
+  the aroma and provide aromatheraphy in addition to cleansing the skin
+ </p>
+ <br>
+ <p>Organic saop is made from natural incredients like plant oils,herbs and 
+  essential oils without synthetic chemicals or artificial fragrances. Its gentle on 
+  the skin, environmentaly friendly and often packed with nutirients that nourish and protect. 
+ </p>
+  </div>
+</div>
+<br>
+<div class="hand-container">
+  <div class="hand-item">
+    <h2>Award Winning range of 100%</h2>
+    <p>Our luxurious range of natural saop is made using 100% pure ingredients, 
+      including only pure essential oils to create our uplifting, nurturing scents. We
+      offer Organic natural soap products an d other eco friendlly option and we are 
+      proudly 100% vegan and Leaping Bunny certified cruetly-free.
+    </p>
+  </div>
+    <div class="hand-item">
+<img src="images/soap6.jpg" alt="" width="700">
+    </div>
+    
+</div>
+<br>
+<div class="natural-container">
+  <div class="natural-item">
+    <img src="images/oil.jpg" alt="" width="700">
+  </div>
+  <div class="natural-item">
+    <h2>All-natural, made with love</h2>
+    <p>Organic soaps use natural anibacterial like tea tree and peppermint essential 
+      oils.These do not have any adverse effect. These Essential oils also add up to 
+      the aroma and provide aromatheraphy in addition to cleansing the skin
+     </p>
+     <br>
+     <p>Organic saop is made from natural incredients like plant oils,herbs and 
+      essential oils without synthetic chemicals or artificial fragrances. Its gentle on 
+      the skin, environmentaly friendly and often packed with nutirients that nourish and protect. 
+     </p>
+  </div>
+</div>
+<br>
+<div class="Team">
+  <h1>The Team</h1>
+  <p>A passionate team craft pure organic soaps using natural ingredients to nourish the skin and respect the erath.
+      Their commitment to sustainability and quality shines through every handmade bar.
+  </p>
+  <div class="Team-container">
+    <div class="team-item">
+      <img src="images/team1.jpg" alt="" width="500">
+      <h2>Bella Almost</h2>
+      <p>Soap Maker</p>
+    </div>
+    <div class="team-item">
+      <img src="images/team2.jpg" alt="" width="500">
+      <h2>Bella Almost</h2>
+      <p>Soap Maker</p>
+    </div>
+    <div class="team-item">
+      <img src="images/team3.jpg" alt="" width="500">
+      <h2>Bella Almost</h2>
+      <p>Soap Maker</p>
+    </div>
+  </div>
+</div>
+<br>
+<div class="footer">
+  <div class="footer-logo">
+    <div class="logo-item"><img src="images/logo.JPG" alt="" width="70"></div>
+    <div class="logo-item">
+      <h2>Skinthesis</h2>
+      <p>2025 Skinthesis Limited</p>
+    </div>
+  </div>
+</div>
+
+<br>
+<div class="list-container">
+  <div class="list-item">
+    <ul>
+      <li><strong>Company</strong></li>
+      <li>About Us</li>
+      <li>Skintheis Corporate</li>
+      <li>Careers</li>
+      <li>Team</li>
+    </ul>
+  </div>
+  <div class="list-item">
+    <ul>
+      <li><strong>Contact us</strong></li>
+      <li>Help & Support</li>
+      <li>Partner with us</li>
+      <li>Ride with us</li>
+    </ul>
+  </div>
+  <div class="list-item">
+    <ul>
+      <li><strong>Available in</strong></li>
+      <li>Coimbatore</li>
+      <li>Bengaluru</li>
+      <li>Chennai</li>
+      <li>Kolkata</li>
+    </ul>
+  </div>
+  <div class="list-item">
+    <ul>
+      <li><strong>Legan</strong></li>
+      <li>Terms & Conditions</li>
+      <li>Cookie policy</li>
+      <li>Privacy policy</li>
+    </ul>
+  </div>
+  <div class="list-item">
+    <ul>
+      <li><strong>Information</strong></li>
+      <li>Location</li>
+      <li>Email</li>
+      <li>Social Media</li>
+    </ul>
+  </div>
+</div>
+<br>
+<div class="social-icon">
+  <i class="fa-brands fa-instagram" style="color: #fc97e6; font-size: 2.5rem; font-weight: bold;"></i>
+  <i class="fa-brands fa-facebook" style="color: #74C0FC; font-size: 2.5rem; font-weight: bold;"></i>
+  
+  <i class="fa-brands fa-whatsapp" style="color: #21912e; font-size: 2.5rem; font-weight: bold;" ></i>
+
+</div>
+<br>
+
+<div class="store-container">
+  <div class="store-item">
+    <h1>For better experience, dowload the app now</h1>
+  </div>
+ <div class="store-item">
+  <img src="images/store1.JPG" alt=""  width="200">
+    
+</div>
+ <div class="store-item">
+  <img src="images/store2.JPG" alt="" width="200" >
+ 
+</div>
+</div>
+
+
+</div>
+</section>
+    <script src="script/care.js"></script>
+    
+</body>
+</html>
